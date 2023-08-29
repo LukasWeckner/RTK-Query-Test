@@ -9,10 +9,10 @@ function RestaurantsList() {
 
   const {
     data: restaurants,
-    error,
     isLoading,
-    isFetching,
     isSuccess,
+    isError,
+    error,
   } = useGetRestaurantsQuery();
 
   const startIndex = (currentPage - 1) * restaurantsPerPage;
@@ -25,8 +25,7 @@ function RestaurantsList() {
       <h1>Lieferando</h1>
 
       {isLoading && <h2>Loading...</h2>}
-      {isFetching && <h2>Fetching...</h2>}
-      {error && <h2>{error.message}</h2>}
+      {isError && <h2>{error.toString()}</h2>}
       {isSuccess && (
         <>
           <ul>
