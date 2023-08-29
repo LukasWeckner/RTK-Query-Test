@@ -1,0 +1,221 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pizza Palace",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 10.99
+        },
+        {
+          "id": 2,
+
+          "name": "Pepperoni Pizza",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sushi Heaven",
+      "cuisine": "Japanese",
+      "rating": 4.8,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 10.99
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Burger Bistro",
+      "cuisine": "American",
+      "rating": 4.2,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 10.99
+        },
+        {
+          "id": 2,
+          "name": "Pepperoni Pizza",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Taco Town",
+      "cuisine": "Mexican",
+      "rating": 4.6,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Street Tacos",
+          "price": 6.99
+        },
+        {
+          "id": 2,
+          "name": "Burrito Bowl",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Noodle House",
+      "cuisine": "Asian",
+      "rating": 4.4,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Pad Thai",
+          "price": 11.99
+        },
+        {
+          "id": 2,
+          "name": "Szechuan Noodles",
+          "price": 10.49
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Steakhouse Grill",
+      "cuisine": "Steak",
+      "rating": 4.7,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Filet Mignon",
+          "price": 22.99
+        },
+        {
+          "id": 2,
+          "name": "Ribeye Steak",
+          "price": 25.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Vegetarian Delights",
+      "cuisine": "Vegetarian",
+      "rating": 4.3,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Quinoa Salad",
+          "price": 9.99
+        },
+        {
+          "id": 2,
+          "name": "Veggie Wrap",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Seafood Shack",
+      "cuisine": "Seafood",
+      "rating": 4.9,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Grilled Salmon",
+          "price": 15.99
+        },
+        {
+          "id": 2,
+          "name": "Shrimp Scampi",
+          "price": 14.49
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pasta Paradise",
+      "cuisine": "Italian",
+      "rating": 4.2,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Spaghetti Carbonara",
+          "price": 12.99
+        },
+        {
+          "id": 2,
+          "name": "Fettuccine Alfredo",
+          "price": 11.49
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Curry House",
+      "cuisine": "Indian",
+      "rating": 4.5,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "price": 13.99
+        },
+        {
+          "id": 2,
+          "name": "Vegetable Biryani",
+          "price": 11.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mediterranean Flavors",
+      "cuisine": "Mediterranean",
+      "rating": 4.3,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Hummus Platter",
+          "price": 8.99
+        },
+        {
+          "id": 2,
+          "name": "Falafel Wrap",
+          "price": 7.49
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "BBQ Junction",
+      "cuisine": "Barbecue",
+      "rating": 4.8,
+      "dishes": [
+        {
+          "id": 1,
+          "name": "Pulled Pork Sandwich",
+          "price": 9.99
+        },
+        {
+          "id": 2,
+          "name": "Brisket Platter",
+          "price": 14.99
+        }
+      ]
+    }
+  ]
+}
