@@ -5,6 +5,7 @@ import { styled } from "styled-components";
 
 function RestaurantsList() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchRestaurantName, setSearchRestaurantName] = useState("");
   const restaurantsPerPage = 5;
 
   const {
@@ -18,11 +19,22 @@ function RestaurantsList() {
   const startIndex = (currentPage - 1) * restaurantsPerPage;
   const endIndex = startIndex + restaurantsPerPage;
 
-  const displayedRestaurants = restaurants?.slice(startIndex, endIndex);
+  const filteredRestaurants = restaurants?.filter((restaurant) =>
+    restaurant.name.toLowerCase().includes(searchRestaurantName.toLowerCase())
+  );
+  const displayedRestaurants = filteredRestaurants?.slice(startIndex, endIndex);
 
   return (
     <>
       <h1>Lieferando</h1>
+
+      <label htmlFor="searchName">Search restaurant:</label>
+      <input
+        type="text"
+        id="searchName"
+        value={searchRestaurantName}
+        onChange={(event) => setSearchRestaurantName(event.target.value)}
+      />
 
       {isLoading && <h2>Loading...</h2>}
       {isError && <h2>{error.toString()}</h2>}
